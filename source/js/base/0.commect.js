@@ -1,5 +1,5 @@
 /**
 	XUIWeb
-	author: milestone.jxd@gmail. 
+	author: milestone.jxd@gmail.com
 	@preserve 
 */
