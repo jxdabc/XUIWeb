@@ -11,7 +11,8 @@ Build
 
 - Install node.js. 
 
- [See here. ](http://nodejs.org/)
+ [See here. ](http://www.php.net/downloads.php)  
+ [And here. ](http://nodejs.org/)
 
 - Install uglifycss. 
 
