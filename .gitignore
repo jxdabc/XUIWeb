@@ -1,0 +1,3 @@
+/release/*
+!/release/.gitignore
+*.intermedia.*
