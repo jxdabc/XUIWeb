@@ -7,11 +7,12 @@ Build
 ----------------------
 - Install php and config php cli. 
 
- [Document here. ](http://www.php.net/manual/en/features.commandline.introduction.php)
+ [See here. ](http://www.php.net/downloads.php)
+ [And here. ](http://www.php.net/manual/en/features.commandline.introduction.php)
 
 - Install node.js. 
 
- [See here. ](http://nodejs.org/)
+ [See here. ](http://nodejs.org/)  
 
 - Install uglifycss. 
 
