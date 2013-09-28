@@ -1,0 +1,29 @@
+.dropdown-menu.dropdown-skin
+{
+	background-color:darken(#0b1d35, 5%);
+
+	& > li
+	{
+		border-top:1px solid #333;
+	}
+
+	& > li:first-child
+	{
+		border-top:none;
+	}
+}
+
+.dropdown-menu.dropdown-skin.root-dropdown-menu
+{
+	.opatical(0.9);
+	filter: e("alpha(enabled = false)");
+}
+
+.dropdown-menu.dropdown-skin > li
+{
+	& > a, & > dropdown-submenu
+	{
+		color:#FFF;
+	}
+}
+

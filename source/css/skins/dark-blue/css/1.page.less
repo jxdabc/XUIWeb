@@ -1,0 +1,64 @@
+body.page
+{
+	background-image: url('img/page-back.jpg')
+}
+
+.page_header_inner
+{
+	background-image: none;
+}
+
+
+#ul_page_nav_last_child()
+{
+	height:64px;
+	line-height:40px;
+
+	background-image: url('img/left/left-buttonOffDown.png');
+
+	&:hover
+	{
+		background-image: url('img/left/left-buttonOnDown.png');
+	}
+}
+
+
+ul.page_nav
+{
+	& > li
+	{
+		&:first-child
+		{
+			height:49px;
+			line-height:56px;
+
+			background-image: url('img/left/left-buttonOffTop.png');
+
+			&:hover
+			{
+				background-image: url('img/left/left-buttonOnTop.png');
+			}
+		}
+
+		&:last-child
+		{
+			#ul_page_nav_last_child;
+		}
+	}
+}
+
+
+ul.page_nav > li.last_child
+{
+	#ul_page_nav_last_child;
+}
+
+
+.page_right_top_menu
+{
+	& > li
+	{
+		line-height: 25px;
+		height: 29px;
+	}
+}
